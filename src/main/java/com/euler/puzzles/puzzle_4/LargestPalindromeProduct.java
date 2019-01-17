@@ -20,7 +20,6 @@ public class LargestPalindromeProduct implements CommandLineRunner{
 		System.out.println (6/6);
 		for (int i = 999999; i > 100000; i--) {
 			if (isPalindrome (i)) {
-				System.out.println ("trying for -> " + i);
 				if (print3DigitDivisors(i))  {
 					break;
 				}
